@@ -5,3 +5,6 @@ img {
 div{
     float: left;
 }
+footer{
+    clear: both;
+}
