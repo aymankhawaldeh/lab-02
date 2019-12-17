@@ -51,9 +51,14 @@ $('document').ready(function(){
 
   $('#choose').on('change', (val) => {
     let selectedVal = val.target.value;
-    console.log( selectedVal);
-    $('div').hide();
-    $(`.${selectedVal}`).fadeIn();
+    if(selectedVal === 'default'){
+      $('div').show();
+    }
+    else{
+      console.log(selectedVal);
+      $('div').hide();
+      $(`.${selectedVal}`).fadeIn();
+    }
   });
 
 });
