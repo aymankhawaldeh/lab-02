@@ -8,13 +8,20 @@ $('document').ready(function(){
     this.horns = data.horns;
   }
   Story.prototype.render = function (){
-    let wholeStory = $('<div> <h2 class="hi"></h2> <img/> <p></p> </div>').clone();
+    let wholeStory = $(`
+    <div class="">
+      <h2></h2>
+      <img/>
+      <p></p>
+    </div>
+    `).clone();
 
     wholeStory.find('img').attr('src', this.image_url);
     wholeStory.find('h2').text(this.title);
     wholeStory.find('p').text(this.description);
-    wholeStory.find('p').text(this.keyword);
-    wholeStory.find('p').text(this.horns);
+    wholeStory.addClass(this.keyword);
+    // wholeStory.find('p').text(this.keyword);
+    // wholeStory.find('p').text(this.horns);
 
 
 
@@ -27,13 +34,26 @@ $('document').ready(function(){
   $.get('data/page-1.json')
     .then( data => {
 
+      let seen = {};
+      // {'unicorn': true, 'UniWhal':true}
       data.forEach(element => {
         let story = new Story(element);
         story.render();
-        $('#choose').append('<option>' + element.keyword + '</option>' );
-
+        // if the keyword in the list, skip
+        // else add it
+        // IF you use an array: 
+        if (!seen[element.keyword] ){
+          $('#choose').append(`<option value='${element.keyword}'>` + element.keyword + '</option>' );
+          seen[element.keyword]=true;
+        }
       });
     });
 
-});
+  $('#choose').on('change', (val) => {
+    let selectedVal = val.target.value;
+    console.log( selectedVal);
+    $('div').hide();
+    $(`.${selectedVal}`).fadeIn();
+  });
 
+});
