@@ -1,0 +1,27 @@
+img {
+    height: 250px;
+    width: 250px;
+}
+header{
+    text-align: center;
+}
+img{
+    width: 230px;
+    height: 230px;
+}
+#choose{
+    width: 200px;
+    height: 70px;
+    padding-left: 25px;
+    font-size:18px ;
+    border-width: 8px; border: inset black;
+    font-family: 'Merienda One', cursive;
+}
+#choose{
+    text-align: center;
+}
+p{
+    font-family: 'Merienda One', cursive;
+    font-size: 16px;
+
+}

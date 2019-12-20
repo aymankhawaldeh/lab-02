@@ -1,0 +1,16 @@
+*{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+div{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 77px;
+}
+footer{
+    margin-top: 700px;
+    clear: both;
+    text-align: center;
+ 
+}

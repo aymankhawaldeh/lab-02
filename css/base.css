@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Merienda+One|Sigmar+One&display=swap');
+*{
+    background-color: blueviolet;
+}
+footer{
+    font-family: 'Merienda One', cursive;
+    font-family: 'Merienda One', cursive;
+}
+h1{
+    font-family: 'Sigmar One', cursive;
+
+    
+}
+h2{
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+
+}
+img{
+    border-radius: 50px;
+    /* border: solid; */
+}
