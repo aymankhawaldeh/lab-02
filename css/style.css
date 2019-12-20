@@ -1,64 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css?family=Mansalva|Merienda+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mansalva|Merienda+One|Sigmar+One&display=swap');
-
-*{
-    margin-top: 10px;
-    margin-left: 18px;
-    background-color: blueviolet;
-}
 
 
-img {
-    height: 250px;
-    width: 250px;
-}
-div{
-    float: left;
-    width: 300px;
-    height: 300px;
-    padding: 77px;
-}
-
-header{
-    text-align: center;
-}
-footer{
-    margin-top: 700px;
-    clear: both;
-    text-align: center;
-    font-family: 'Merienda One', cursive;
-        font-family: 'Merienda One', cursive;
 
 
-}
-img{
-    width: 230px;
-    height: 230px;
-}
-#choose{
-    text-align: center;
-}
-p{
-    font-family: 'Merienda One', cursive;
-    font-size: 16px;
 
-}
-h1{
-    font-family: 'Sigmar One', cursive;
 
-    
-}
-h2{
-    font-family: 'Merienda One', cursive;
-    font-size: 25px;
 
-}
-#choose{
-    width: 200px;
-    height: 70px;
-    padding-left: 25px;
-    font-size:18px ;
-    border-width: 8px; border: inset black;
-    font-family: 'Merienda One', cursive;
-}
+
+
+
+
+
