@@ -5,7 +5,7 @@
 ## also we add constructer function and give the constructer proparties that refer to the json file. 
 ## we add some css and we need to devied the css into SMACCS. 
 
-## number of featurs we add image and drop down menu to show every image in the menu ass a selected image 
+## number of featurs we add : 2 / image and drop down menu to show every image in the menu ass a selected image 
 ## Estimate of time needed to complete: 5 hours 
 
 ## Start time: 12pm
