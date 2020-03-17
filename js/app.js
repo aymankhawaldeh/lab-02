@@ -46,6 +46,7 @@ $('document').ready(function(){
           $('#choose').append(`<option value='${element.keyword}'>` + element.keyword + '</option>' );
           seen[element.keyword]=true;
         }
+        
       });
     });
 
